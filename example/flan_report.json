@@ -1,0 +1,1102 @@
+{
+    "ips": [
+        "45.33.32.156",
+        "127.0.0.1"
+    ],
+    "vulnerable": {
+        "OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (cpe:/a:openbsd:openssh:6.6.1p1) (cpe:/o:linux:linux_kernel) ": {
+            "vulnerabilities": [
+                {
+                    "name": "EDB-ID:21018",
+                    "type": "exploitdb",
+                    "severity": 10.0,
+                    "severity_str": "High",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "CVE-2001-0554",
+                    "type": "cve",
+                    "severity": 10.0,
+                    "severity_str": "High",
+                    "description": "Buffer overflow in BSD-based telnetd telnet daemon on various operating systems allows remote attackers to execute arbitrary commands via a set of options including AYT (Are You There), which is not properly handled by the telrcv function.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2001-0554"
+                },
+                {
+                    "name": "CVE-2015-5600",
+                    "type": "cve",
+                    "severity": 8.5,
+                    "severity_str": "High",
+                    "description": "The kbdint_next_device function in auth2-chall.c in sshd in OpenSSH through 6.9 does not properly restrict the processing of keyboard-interactive devices within a single connection, which makes it easier for remote attackers to conduct brute-force attacks or cause a denial of service (CPU consumption) via a long and duplicative list in the ssh -oKbdInteractiveDevices option, as demonstrated by a modified client that provides a different password for each pam element on this list.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5600"
+                },
+                {
+                    "name": "CVE-2020-16088",
+                    "type": "cve",
+                    "severity": 7.5,
+                    "severity_str": "High",
+                    "description": "iked in OpenIKED, as used in OpenBSD through 6.7, allows authentication bypass because ca.c has the wrong logic for checking whether a public key matches.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-16088"
+                },
+                {
+                    "name": "MSF:ILITIES/GENTOO-LINUX-CVE-2015-6564/",
+                    "type": "metasploit",
+                    "severity": 6.9,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "CVE-2015-6564",
+                    "type": "cve",
+                    "severity": 6.9,
+                    "severity_str": "Medium",
+                    "description": "Use-after-free vulnerability in the mm_answer_pam_free_ctx function in monitor.c in sshd in OpenSSH before 7.0 on non-OpenBSD platforms might allow local users to gain privileges by leveraging control of the sshd uid to send an unexpectedly early MONITOR_REQ_PAM_FREE_CTX request.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-6564"
+                },
+                {
+                    "name": "CVE-2018-15919",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "Remotely observable behaviour in auth-gss2.c in OpenSSH through 7.8 could be used by remote attackers to detect existence of users on a target system when GSS2 is in use. NOTE: the discoverer states 'We understand that the OpenSSH developers do not want to treat such a username enumeration (or \"oracle\") as a vulnerability.'",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-15919"
+                },
+                {
+                    "name": "MSF:ILITIES/OPENBSD-OPENSSH-CVE-2020-14145/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-14145/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-14145/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2020-14145/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/F5-BIG-IP-CVE-2020-14145/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "CVE-2020-14145",
+                    "type": "cve",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "The client side in OpenSSH 5.7 through 8.4 has an Observable Discrepancy leading to an information leak in the algorithm negotiation. This allows man-in-the-middle attackers to target initial connection attempts (where no host key for the server has been cached by the client). NOTE: some reports state that 8.5 and 8.6 are also affected.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-14145"
+                },
+                {
+                    "name": "CVE-2015-5352",
+                    "type": "cve",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "The x11_open_helper function in channels.c in ssh in OpenSSH before 6.9, when ForwardX11Trusted mode is not used, lacks a check of the refusal deadline for X connections, which makes it easier for remote attackers to bypass intended access restrictions via a connection outside of the permitted time window.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5352"
+                },
+                {
+                    "name": "CVE-2007-2768",
+                    "type": "cve",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "OpenSSH, when using OPIE (One-Time Passwords in Everything) for PAM, allows remote attackers to determine the existence of certain user accounts, which displays a different response if the user account exists and is configured to use one-time passwords (OTP), a similar issue to CVE-2007-2243.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2007-2768"
+                },
+                {
+                    "name": "MSF:ILITIES/ALPINE-LINUX-CVE-2015-6563/",
+                    "type": "metasploit",
+                    "severity": 1.9,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "CVE-2015-6563",
+                    "type": "cve",
+                    "severity": 1.9,
+                    "severity_str": "Low",
+                    "description": "The monitor component in sshd in OpenSSH before 7.0 on non-OpenBSD platforms accepts extraneous username data in MONITOR_REQ_PAM_INIT_CTX requests, which allows local users to conduct impersonation attacks by leveraging any SSH login access in conjunction with control of the sshd uid to send a crafted MONITOR_REQ_PWNAM request, related to monitor.c and monitor_wrap.c.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-6563"
+                }
+            ],
+            "locations": {
+                "127.0.0.5": [
+                    22
+                ]
+            }
+        },
+        "Apache httpd 2.4.7 (cpe:/a:apache:http_server:2.4.7) ": {
+            "vulnerabilities": [
+                {
+                    "name": "CVE-2021-26691",
+                    "type": "cve",
+                    "severity": 7.5,
+                    "severity_str": "High",
+                    "description": "In Apache HTTP Server versions 2.4.0 to 2.4.46 a specially crafted SessionHeader sent by an origin server could cause a heap overflow",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26691"
+                },
+                {
+                    "name": "CVE-2017-7679",
+                    "type": "cve",
+                    "severity": 7.5,
+                    "severity_str": "High",
+                    "description": "In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, mod_mime can read one byte past the end of a buffer when sending a malicious Content-Type response header.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7679"
+                },
+                {
+                    "name": "CVE-2017-3167",
+                    "type": "cve",
+                    "severity": 7.5,
+                    "severity_str": "High",
+                    "description": "In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, use of the ap_get_basic_auth_pw() by third-party modules outside of the authentication phase may lead to authentication requirements being bypassed.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3167"
+                },
+                {
+                    "name": "PACKETSTORM:127546",
+                    "type": "packetstorm",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/UBUNTU-CVE-2018-1312/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/UBUNTU-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/SUSE-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/REDHAT_LINUX-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/ORACLE_LINUX-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2018-1312/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1312/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2018-1312/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP1-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/GENTOO-LINUX-CVE-2014-0226/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/FREEBSD-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/DEBIAN-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/CENTOS_LINUX-CVE-2017-17790/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/CENTOS_LINUX-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/APACHE-HTTPD-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/AMAZON_LINUX-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/ALPINE-LINUX-CVE-2018-1312/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/ALPINE-LINUX-CVE-2017-15715/",
+                    "type": "metasploit",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "EDB-ID:34133",
+                    "type": "exploitdb",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "CVE-2020-35452",
+                    "type": "cve",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "Apache HTTP Server versions 2.4.0 to 2.4.46 A specially crafted Digest nonce can cause a stack overflow in mod_auth_digest. There is no report of this overflow being exploitable, nor the Apache HTTP Server team could create one, though some particular compiler and/or compilation option might make it possible, with limited consequences anyway due to the size (a single byte) and the value (zero byte) of the overflow",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-35452"
+                },
+                {
+                    "name": "CVE-2018-1312",
+                    "type": "cve",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "In Apache httpd 2.2.0 to 2.4.29, when generating an HTTP Digest authentication challenge, the nonce sent to prevent reply attacks was not correctly generated using a pseudo-random seed. In a cluster of servers using a common Digest authentication configuration, HTTP requests could be replayed across servers by an attacker without detection.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1312"
+                },
+                {
+                    "name": "CVE-2017-15715",
+                    "type": "cve",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "In Apache httpd 2.4.0 to 2.4.29, the expression specified in <FilesMatch> could match '$' to a newline character in a malicious filename, rather than matching only the end of the filename. This could be exploited in environments where uploads of some files are are externally blocked, but only by matching the trailing portion of the filename.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-15715"
+                },
+                {
+                    "name": "CVE-2014-0226",
+                    "type": "cve",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "Race condition in the mod_status module in the Apache HTTP Server before 2.4.10 allows remote attackers to cause a denial of service (heap-based buffer overflow), or possibly obtain sensitive credential information or execute arbitrary code, via a crafted request that triggers improper scoreboard handling within the status_handler function in modules/generators/mod_status.c and the lua_ap_scoreboard_worker function in modules/lua/lua_request.c.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-0226"
+                },
+                {
+                    "name": "1337DAY-ID-22451",
+                    "type": "zdt",
+                    "severity": 6.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "CVE-2017-9788",
+                    "type": "cve",
+                    "severity": 6.4,
+                    "severity_str": "Medium",
+                    "description": "In Apache httpd before 2.2.34 and 2.4.x before 2.4.27, the value placeholder in [Proxy-]Authorization headers of type 'Digest' was not initialized or reset before or between successive key=value assignments by mod_auth_digest. Providing an initial key with no '=' assignment could reflect the stale value of uninitialized pool memory used by the prior request, leading to leakage of potentially confidential information, and a segfault in other cases resulting in denial of service.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-9788"
+                },
+                {
+                    "name": "MSF:ILITIES/REDHAT_LINUX-CVE-2019-0217/",
+                    "type": "metasploit",
+                    "severity": 6.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/IBM-HTTP_SERVER-CVE-2019-0217/",
+                    "type": "metasploit",
+                    "severity": 6.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "CVE-2019-0217",
+                    "type": "cve",
+                    "severity": 6.0,
+                    "severity_str": "Medium",
+                    "description": "In Apache HTTP Server 2.4 release 2.4.38 and prior, a race condition in mod_auth_digest when running in a threaded server could allow a user with valid credentials to authenticate using another username, bypassing configured access control restrictions.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0217"
+                },
+                {
+                    "name": "EDB-ID:47689",
+                    "type": "exploitdb",
+                    "severity": 5.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "CVE-2020-1927",
+                    "type": "cve",
+                    "severity": 5.8,
+                    "severity_str": "Medium",
+                    "description": "In Apache HTTP Server 2.4.0 to 2.4.41, redirects configured with mod_rewrite that were intended to be self-referential might be fooled by encoded newlines and redirect instead to an an unexpected URL within the request URL.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1927"
+                },
+                {
+                    "name": "CVE-2019-10098",
+                    "type": "cve",
+                    "severity": 5.8,
+                    "severity_str": "Medium",
+                    "description": "In Apache HTTP server 2.4.0 to 2.4.39, Redirects configured with mod_rewrite that were intended to be self-referential might be fooled by encoded newlines and redirect instead to an unexpected URL within the request URL.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10098"
+                },
+                {
+                    "name": "1337DAY-ID-33577",
+                    "type": "zdt",
+                    "severity": 5.8,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "CVE-2016-5387",
+                    "type": "cve",
+                    "severity": 5.1,
+                    "severity_str": "Medium",
+                    "description": "The Apache HTTP Server through 2.4.23 follows RFC 3875 section 4.1.18 and therefore does not protect applications from the presence of untrusted client data in the HTTP_PROXY environment variable, which might allow remote attackers to redirect an application's outbound HTTP traffic to an arbitrary proxy server via a crafted Proxy header in an HTTP request, aka an \"httpoxy\" issue.  NOTE: the vendor states \"This mitigation has been assigned the identifier CVE-2016-5387\"; in other words, this is not a CVE ID for a vulnerability.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-5387"
+                },
+                {
+                    "name": "SSV:96537",
+                    "type": "seebug",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "SSV:61874",
+                    "type": "seebug",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/UBUNTU-CVE-2018-1303/",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/UBUNTU-CVE-2017-15710/",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/SUSE-CVE-2014-0231/",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/ORACLE-SOLARIS-CVE-2020-1934/",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/ORACLE-SOLARIS-CVE-2017-15710/",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/IBM-HTTP_SERVER-CVE-2017-15710/",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/IBM-HTTP_SERVER-CVE-2016-8743/",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/IBM-HTTP_SERVER-CVE-2016-2161/",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/IBM-HTTP_SERVER-CVE-2016-0736/",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2017-15710/",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2017-15710/",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/CENTOS_LINUX-CVE-2017-15710/",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:AUXILIARY/SCANNER/HTTP/APACHE_OPTIONSBLEED",
+                    "type": "metasploit",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "EXPLOITPACK:DAED9B9E8D259B28BF72FC7FDC4755A7",
+                    "type": "exploitpack",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "EXPLOITPACK:C8C256BE0BFF5FE1C0405CB0AA9C075D",
+                    "type": "exploitpack",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "CVE-2021-26690",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "Apache HTTP Server versions 2.4.0 to 2.4.46 A specially crafted Cookie header handled by mod_session can cause a NULL pointer dereference and crash, leading to a possible Denial Of Service",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26690"
+                },
+                {
+                    "name": "CVE-2020-1934",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "In Apache HTTP Server 2.4.0 to 2.4.41, mod_proxy_ftp may use uninitialized memory when proxying to a malicious FTP server.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1934"
+                },
+                {
+                    "name": "CVE-2019-17567",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "Apache HTTP Server versions 2.4.6 to 2.4.46 mod_proxy_wstunnel configured on an URL that is not necessarily Upgraded by the origin server was tunneling the whole connection regardless, thus allowing for subsequent requests on the same connection to pass through with no HTTP validation, authentication or authorization possibly configured.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-17567"
+                },
+                {
+                    "name": "CVE-2019-0220",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "A vulnerability was found in Apache HTTP Server 2.4.0 to 2.4.38. When the path component of a request URL contains multiple consecutive slashes ('/'), directives such as LocationMatch and RewriteRule must account for duplicates in regular expressions while other aspects of the servers processing will implicitly collapse them.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0220"
+                },
+                {
+                    "name": "CVE-2018-17199",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "In Apache HTTP Server 2.4 release 2.4.37 and prior, mod_session checks the session expiry time before decoding the session. This causes session expiry time to be ignored for mod_session_cookie sessions since the expiry time is loaded when the session is decoded.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-17199"
+                },
+                {
+                    "name": "CVE-2018-1303",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "A specially crafted HTTP request header could have crashed the Apache HTTP Server prior to version 2.4.30 due to an out of bound read while preparing data to be cached in shared memory. It could be used as a Denial of Service attack against users of mod_cache_socache. The vulnerability is considered as low risk since mod_cache_socache is not widely used, mod_cache_disk is not concerned by this vulnerability.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1303"
+                },
+                {
+                    "name": "CVE-2017-9798",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "Apache httpd allows remote attackers to read secret data from process memory if the Limit directive can be set in a user's .htaccess file, or if httpd.conf has certain misconfigurations, aka Optionsbleed. This affects the Apache HTTP Server through 2.2.34 and 2.4.x through 2.4.27. The attacker sends an unauthenticated OPTIONS HTTP request when attempting to read secret data. This is a use-after-free issue and thus secret data is not always sent, and the specific data depends on many factors including configuration. Exploitation with .htaccess can be blocked with a patch to the ap_limit_section function in server/core.c.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-9798"
+                },
+                {
+                    "name": "CVE-2017-15710",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "In Apache httpd 2.0.23 to 2.0.65, 2.2.0 to 2.2.34, and 2.4.0 to 2.4.29, mod_authnz_ldap, if configured with AuthLDAPCharsetConfig, uses the Accept-Language header value to lookup the right charset encoding when verifying the user's credentials. If the header value is not present in the charset conversion table, a fallback mechanism is used to truncate it to a two characters value to allow a quick retry (for example, 'en-US' is truncated to 'en'). A header value of less than two characters forces an out of bound write of one NUL byte to a memory location that is not part of the string. In the worst case, quite unlikely, the process would crash which could be used as a Denial of Service attack. In the more likely case, this memory is already reserved for future use and the issue has no effect at all.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-15710"
+                },
+                {
+                    "name": "CVE-2016-8743",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "Apache HTTP Server, in all releases prior to 2.2.32 and 2.4.25, was liberal in the whitespace accepted from requests and sent in response lines and headers. Accepting these different behaviors represented a security concern when httpd participates in any chain of proxies or interacts with back-end application servers, either through mod_proxy or using conventional CGI mechanisms, and may result in request smuggling, response splitting and cache pollution.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8743"
+                },
+                {
+                    "name": "CVE-2016-2161",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "In Apache HTTP Server versions 2.4.0 to 2.4.23, malicious input to mod_auth_digest can cause the server to crash, and each instance continues to crash even for subsequently valid requests.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-2161"
+                },
+                {
+                    "name": "CVE-2016-0736",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "In Apache HTTP Server versions 2.4.0 to 2.4.23, mod_session_crypto was encrypting its data/cookie using the configured ciphers with possibly either CBC or ECB modes of operation (AES256-CBC by default), hence no selectable or builtin authenticated encryption. This made it vulnerable to padding oracle attacks, particularly with CBC.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-0736"
+                },
+                {
+                    "name": "CVE-2015-3183",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "The chunked transfer coding implementation in the Apache HTTP Server before 2.4.14 does not properly parse chunk headers, which allows remote attackers to conduct HTTP request smuggling attacks via a crafted request, related to mishandling of large chunk-size values and invalid chunk-extension characters in modules/http/http_filters.c.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3183"
+                },
+                {
+                    "name": "CVE-2015-0228",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "The lua_websocket_read function in lua_request.c in the mod_lua module in the Apache HTTP Server through 2.4.12 allows remote attackers to cause a denial of service (child-process crash) by sending a crafted WebSocket Ping frame after a Lua script has called the wsupgrade function.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-0228"
+                },
+                {
+                    "name": "CVE-2014-3523",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "Memory leak in the winnt_accept function in server/mpm/winnt/child.c in the WinNT MPM in the Apache HTTP Server 2.4.x before 2.4.10 on Windows, when the default AcceptFilter is enabled, allows remote attackers to cause a denial of service (memory consumption) via crafted requests.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-3523"
+                },
+                {
+                    "name": "CVE-2014-0231",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "The mod_cgid module in the Apache HTTP Server before 2.4.10 does not have a timeout mechanism, which allows remote attackers to cause a denial of service (process hang) via a request to a CGI script that does not read from its stdin file descriptor.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-0231"
+                },
+                {
+                    "name": "CVE-2014-0098",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "The log_cookie function in mod_log_config.c in the mod_log_config module in the Apache HTTP Server before 2.4.8 allows remote attackers to cause a denial of service (segmentation fault and daemon crash) via a crafted cookie that is not properly handled during truncation.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-0098"
+                },
+                {
+                    "name": "CVE-2013-6438",
+                    "type": "cve",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "The dav_xml_get_cdata function in main/util.c in the mod_dav module in the Apache HTTP Server before 2.4.8 does not properly remove whitespace characters from CDATA sections, which allows remote attackers to cause a denial of service (daemon crash) via a crafted DAV WRITE request.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-6438"
+                },
+                {
+                    "name": "1337DAY-ID-28573",
+                    "type": "zdt",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "1337DAY-ID-26574",
+                    "type": "zdt",
+                    "severity": 5.0,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "SSV:87152",
+                    "type": "seebug",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "PACKETSTORM:127563",
+                    "type": "packetstorm",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/UBUNTU-CVE-2018-1302/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/UBUNTU-CVE-2018-1301/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/SUSE-CVE-2014-0118/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2016-4975/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/DEBIAN-CVE-2019-10092/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/APACHE-HTTPD-CVE-2020-11985/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/APACHE-HTTPD-CVE-2019-10092/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/AMAZON-LINUX-AMI-ALAS-2014-389/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/ALPINE-LINUX-CVE-2014-0117/",
+                    "type": "metasploit",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "EDB-ID:47688",
+                    "type": "exploitdb",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "CVE-2020-11985",
+                    "type": "cve",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "IP address spoofing when proxying using mod_remoteip and mod_rewrite For configurations using proxying with mod_remoteip and certain mod_rewrite rules, an attacker could spoof their IP address for logging and PHP scripts. Note this issue was fixed in Apache HTTP Server 2.4.24 but was retrospectively allocated a low severity CVE in 2020.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11985"
+                },
+                {
+                    "name": "CVE-2019-10092",
+                    "type": "cve",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "In Apache HTTP Server 2.4.0-2.4.39, a limited cross-site scripting issue was reported affecting the mod_proxy error page. An attacker could cause the link on the error page to be malformed and instead point to a page of their choice. This would only be exploitable where a server was set up with proxying enabled but was misconfigured in such a way that the Proxy Error page was displayed.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10092"
+                },
+                {
+                    "name": "CVE-2018-1302",
+                    "type": "cve",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "When an HTTP/2 stream was destroyed after being handled, the Apache HTTP Server prior to version 2.4.30 could have written a NULL pointer potentially to an already freed memory. The memory pools maintained by the server make this vulnerability hard to trigger in usual configurations, the reporter and the team could not reproduce it outside debug builds, so it is classified as low risk.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1302"
+                },
+                {
+                    "name": "CVE-2018-1301",
+                    "type": "cve",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "A specially crafted request could have crashed the Apache HTTP Server prior to version 2.4.30, due to an out of bound access after a size limit is reached by reading the HTTP header. This vulnerability is considered very hard if not impossible to trigger in non-debug mode (both log and build level), so it is classified as low risk for common server usage.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1301"
+                },
+                {
+                    "name": "CVE-2016-4975",
+                    "type": "cve",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "Possible CRLF injection allowing HTTP response splitting attacks for sites which use mod_userdir. This issue was mitigated by changes made in 2.4.25 and 2.2.32 which prohibit CR or LF injection into the \"Location\" or other outbound header key or value. Fixed in Apache HTTP Server 2.4.25 (Affected 2.4.1-2.4.23). Fixed in Apache HTTP Server 2.2.32 (Affected 2.2.0-2.2.31).",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-4975"
+                },
+                {
+                    "name": "CVE-2015-3185",
+                    "type": "cve",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "The ap_some_auth_required function in server/request.c in the Apache HTTP Server 2.4.x before 2.4.14 does not consider that a Require directive may be associated with an authorization setting rather than an authentication setting, which allows remote attackers to bypass intended access restrictions in opportunistic circumstances by leveraging the presence of a module that relies on the 2.2 API behavior.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3185"
+                },
+                {
+                    "name": "CVE-2014-8109",
+                    "type": "cve",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "mod_lua.c in the mod_lua module in the Apache HTTP Server 2.3.x and 2.4.x through 2.4.10 does not support an httpd configuration in which the same Lua authorization provider is used with different arguments within different contexts, which allows remote attackers to bypass intended access restrictions in opportunistic circumstances by leveraging multiple Require directives, as demonstrated by a configuration that specifies authorization for one group to access a certain directory, and authorization for a second group to access a second directory.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-8109"
+                },
+                {
+                    "name": "CVE-2014-0118",
+                    "type": "cve",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "The deflate_in_filter function in mod_deflate.c in the mod_deflate module in the Apache HTTP Server before 2.4.10, when request body decompression is enabled, allows remote attackers to cause a denial of service (resource consumption) via crafted request data that decompresses to a much larger size.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-0118"
+                },
+                {
+                    "name": "CVE-2014-0117",
+                    "type": "cve",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "The mod_proxy module in the Apache HTTP Server 2.4.x before 2.4.10, when a reverse proxy is enabled, allows remote attackers to cause a denial of service (child-process crash) via a crafted HTTP Connection header.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-0117"
+                },
+                {
+                    "name": "1337DAY-ID-33575",
+                    "type": "zdt",
+                    "severity": 4.3,
+                    "severity_str": "Medium",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/UBUNTU-CVE-2018-1283/",
+                    "type": "metasploit",
+                    "severity": 3.5,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/REDHAT_LINUX-CVE-2018-1283/",
+                    "type": "metasploit",
+                    "severity": 3.5,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/ORACLE-SOLARIS-CVE-2018-1283/",
+                    "type": "metasploit",
+                    "severity": 3.5,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/IBM-HTTP_SERVER-CVE-2018-1283/",
+                    "type": "metasploit",
+                    "severity": 3.5,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2018-1283/",
+                    "type": "metasploit",
+                    "severity": 3.5,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "MSF:ILITIES/CENTOS_LINUX-CVE-2018-1283/",
+                    "type": "metasploit",
+                    "severity": 3.5,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "CVE-2018-1283",
+                    "type": "cve",
+                    "severity": 3.5,
+                    "severity_str": "Low",
+                    "description": "In Apache httpd 2.4.0 to 2.4.29, when mod_session is configured to forward its session data to CGI applications (SessionEnv on, not the default), a remote user may influence their content by using a \"Session\" header. This comes from the \"HTTP_SESSION\" variable name used by mod_session to forward its data to CGIs, since the prefix \"HTTP_\" is also used by the Apache HTTP Server to pass HTTP header fields, per CGI specifications.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1283"
+                },
+                {
+                    "name": "CVE-2016-8612",
+                    "type": "cve",
+                    "severity": 3.3,
+                    "severity_str": "Low",
+                    "description": "Apache HTTP Server mod_cluster before version httpd 2.4.23 is vulnerable to an Improper Input Validation in the protocol parsing logic in the load balancer resulting in a Segmentation Fault in the serving httpd process.",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8612"
+                },
+                {
+                    "name": "CVE-2020-13938",
+                    "type": "cve",
+                    "severity": 2.1,
+                    "severity_str": "Low",
+                    "description": "Apache HTTP Server versions 2.4.0 to 2.4.46 Unprivileged local users can stop httpd on Windows",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-13938"
+                },
+                {
+                    "name": "PACKETSTORM:140265",
+                    "type": "packetstorm",
+                    "severity": 0.0,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "EDB-ID:42745",
+                    "type": "exploitdb",
+                    "severity": 0.0,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "EDB-ID:40961",
+                    "type": "exploitdb",
+                    "severity": 0.0,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "1337DAY-ID-601",
+                    "type": "zdt",
+                    "severity": 0.0,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "1337DAY-ID-2237",
+                    "type": "zdt",
+                    "severity": 0.0,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "1337DAY-ID-1415",
+                    "type": "zdt",
+                    "severity": 0.0,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                },
+                {
+                    "name": "1337DAY-ID-1161",
+                    "type": "zdt",
+                    "severity": 0.0,
+                    "severity_str": "Low",
+                    "description": "",
+                    "url": ""
+                }
+            ],
+            "locations": {
+                "127.0.0.3": [
+                    80
+                ]
+            }
+        }
+    },
+    "not_vulnerable": {
+        "tcpwrapped ": {
+            "locations": {
+                "127.0.0.1": [
+                    21,
+                    443,
+                    31337
+                ]
+            }
+        },
+        "Nping echo ": {
+            "locations": {
+                "127.0.0.4": [
+                    9929
+                ]
+            }
+        }
+    },
+    "start_date": "Mon Sept 16 16:39:42 2021",
+    "nmap_command": "nmap -sV -oX <output-file> -oN - -v1 --script=vulners/vulners.nse"
+}

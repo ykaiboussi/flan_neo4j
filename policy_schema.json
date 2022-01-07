@@ -1,0 +1,35 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Departments",
+    "type": "object",
+    "properties": {
+        "departments": {
+            "type": "object",
+            "properties":{
+                "name": {
+                    "type":"string"
+                },
+                "teams": {
+                    "type": "object",
+                    "properties":{
+                        "name": {
+                            "type": "string"
+                        },
+                        "services": {
+                            "type":"object",
+                            "properties":{
+                                "name": {
+                                    "type": "string"
+                                },
+                                "ips": {
+                                    "type": "array"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
